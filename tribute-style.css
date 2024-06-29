@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/736x/04/63/0e/04630e7090ba830a91a2d4d7fb7498c9.jpg')no-repeat center center/cover;
+    color: #333;
+}
+
+header {
+    background-color: #c96309;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 2em 1em;
+    background-color: white;
+    margin: 1em auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 500px;
+    height: 500px;
+    display:block;
+    margin: 0 auto 1em;
+}
+
+.intro p, .qualities p, .history p, .dedication p, .contributions p, .notable-events p, .party-contributions p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.qualities h2, .history h2, .dedication h2, .contributions h2, .notable-events h2, .party-contributions h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #0b3d91;
+}
+
+footer {
+    background-color: #06691d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
